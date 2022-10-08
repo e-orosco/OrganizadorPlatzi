@@ -1,0 +1,36 @@
+---
+es:
+  activerecord:
+    common:
+      back: Atrás
+    models:
+      task:
+        one: Tarea
+        others: Tareas
+  categories:
+    form:
+      description: Descripción
+      name: Nombre
+    new_category: Nueva categoría
+  common:
+    are_you_sure: ¿Estas seguro?
+    back: Atrás
+    destroy: Destruir
+    edit: Editar
+    show: Mostrar
+  hello: Hello world
+  task:
+    errors:
+      invalid_due_date: Fecha de vencimiento no válida
+      user_repeated: Usuario de participante repetido
+    erros:
+      invalid_due_date: Fecha de vencimiento no válida
+  tasks:
+    form:
+      category: Cartegoría
+      description: Descripción
+      due_date: Fecha de vencimiento
+      name: Nombre
+    invalid_due_date: Fecha Invalida
+    new_task: Nueva Tarea
+    user_repeated: Usuario Repetido
