@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     sessions: 'sessions'
   }
+ 
   resources :tasks do
     resources :notes, only: [:create], controller: 'tasks/notes'
   end  

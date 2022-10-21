@@ -7,9 +7,9 @@
   = csp_meta_tag
   = stylesheet_link_tag "application", "data-turbo-track": "reload"
   = javascript_importmap_tags
-%body
- 
+%body.bg-dark.text-white
 .container.mt-4.pb-4
   .main-flash-messages
     = render 'layouts/messages'
-  = yield
+  .w-25.m-auto
+    = yield

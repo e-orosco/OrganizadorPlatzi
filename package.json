@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "big-integer": "^1.6.51",
     "bootstrap": "^5.1.3",
     "cocoon": "github:nathanvda/cocoon#c24ba53",
     "jquery": "^3.6.0",

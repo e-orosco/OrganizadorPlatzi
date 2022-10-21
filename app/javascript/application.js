@@ -7,5 +7,7 @@ import "popper"
 import "bootstrap"
 import "cocoon"
 
+//import "big-integer"
+
 import Rails from '@rails/ujs'
 Rails.start()

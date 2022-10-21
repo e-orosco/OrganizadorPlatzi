@@ -1,6 +1,6 @@
 .tasks.index-page
   .display-4 Lista de Tareas
-  %p.text-muted.mb-2 A continuación verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma
+  %p.text-muted.mb-2 A continuación verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma.
   .card.bg-gray
     .card-body.pb-2
       .tasks-container
@@ -23,7 +23,7 @@
                     = image_tag "https://robohash.org/#{participant.user.email}?size=60x60", title: participant.user.email
               .task-actions
                 .dropdown
-                  %a#taskMenu{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown"}
+                  %a#taskMenu{"aria-expanded" => "false", "aria-haspopup" => "true", "data-bs-toggle" => "dropdown"}
                     .fas.fa-ellipsis-v
                   .dropdown-menu{"aria-labelledby" => "taskMenu"}
                     = link_to t('common.show'), task, class: 'dropdown-item'
